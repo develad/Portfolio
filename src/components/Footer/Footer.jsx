@@ -9,7 +9,7 @@ function Footer() {
     return (
         <FooterContainer isDark={isDark}>
             <div>All copyrights reserved to: ELAD BAR &copy; {new Date().getFullYear()}</div>
-            <Mail href="mailto:a@gmail.com" isDark={isDark}><md.MdEmail/>develadb@gmail.com</Mail>
+            <Mail href="mailto:develadb@gmail.com" isDark={isDark}><md.MdEmail/>develadb@gmail.com</Mail>
 
         </FooterContainer>
     )
@@ -18,7 +18,6 @@ function Footer() {
 export default Footer
 
 const FooterContainer = styled.div`
-/* margin: auto auto 0 auto; */
 font-family:Bungee,sans-serif;
 margin-top:5rem;
 text-align:center;
@@ -38,7 +37,6 @@ transition:0.4s ease;
 }
 `;
 const Mail = styled.a`
-/* background-color:lime; */
 text-decoration: none;
 color:white;
 display:flex;
