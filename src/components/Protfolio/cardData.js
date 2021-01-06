@@ -43,8 +43,8 @@ export const projectsData = [
             "Form handeling",
             "Advanced css for a friendly UI",
         ],
-        githubLink:"https://github.com/",
-        websiteLink:"https://angry-mahavira-742abf.netlify.app/",
+        githubLink:"https://github.com/develad/Portfolio",
+        websiteLink:"https://elad-bar-portfolio.netlify.app/",
         img:[
             "/images/profileSite.png",
             "/images/profileSiteDark.png"
