@@ -1,0 +1,71 @@
+export const info=[
+    {
+    mainTitle:"FrontEnd",    
+    infoPairs:[
+        {
+            title:"REACT JS",
+            src:"/images/react.png"
+        },
+        {   
+            title:"HTML5",
+            src:"/images/html-5.png"
+        },
+        {
+            title:"CSS3",
+            src:"/images/css3.png"
+        },
+        {
+            title:"JavaScript",
+            src:"/images/javascript.png"
+        },
+        {
+            title:"Bootstrap",
+            src:"/images/bootstrap.png"
+        },
+    ]
+},
+    {
+        mainTitle:"BackEnd",
+        infoPairs:[
+        {
+            title:"nodeJS",
+            src:"/images/nodejs.png"
+        },
+        {   
+            title:"npm",
+            src:"/images/npm.png"
+        },
+        {
+            title:"mongoDB",
+            src:"/images/mongodb.png"
+        },
+    ]
+},
+    {
+        mainTitle:"Deployment",
+        infoPairs:[
+        {
+            title:"Netlify",
+            src:"/images/netlify.png"
+        },
+        {   
+            title:"Heroku",
+            src:"/images/heroku.png"
+        },
+    ]
+},
+    {
+        mainTitle:"Version Control",
+        infoPairs:[
+        {
+            title:"Git",
+            src:"/images/git.png"
+        },
+        {   
+            title:"Github",
+            src:"/images/github.png"
+        },
+    ]
+},
+
+]

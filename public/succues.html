@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Thank you!</title>
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Bungee&family=Poppins&display=swap");
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            font-family: "Poppins", sans-serif;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+            color: white;
+            
+        }
+
+        button {
+            font-size: 20px;
+            font-family: "Poppins", sans-serif;
+            font-weight:bold;
+            color:white;
+            margin-top: 70px;
+            padding:25px;
+            height:40px;
+            border:5px solid white;
+            border-radius:15px;
+            outline:none;
+            background-color:black;
+            display:flex;
+            align-items:center;
+            justify-content:space-evenly;
+            cursor: pointer;
+        }
+
+        button:hover {
+            transition:all 0.2s ease-in-out;
+            background:rgb(0, 255, 200);
+            color: black;
+        }
+
+        h1 {
+            font-size: 3rem;
+            text-align: center;   
+        }
+
+        h1:first-child{
+            margin-bottom: 40px;
+            border-bottom: 2px solid white;
+        }
+        .message {
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+        }
+
+        a {
+            text-decoration: none;
+            
+        }
+
+        img{
+            height: 200px;
+            width: 200px;
+        }
+      
+        @media only screen and (max-width: 980px) {
+        h1{
+            font-size: 2rem;
+        }
+        button{
+            font-size: 1rem;
+        }
+        img{
+            height: 100px;
+            width: 100px;
+        }
+} 
+    </style>
+</head>
+
+<body>
+
+    <div class="message">
+        <h1>Thank You!</h1>
+        <h1>Your contact form had send successfully!</h1>
+        <img src="./images/confeti.gif">
+        
+        <a id="back-link" href="/">
+        <button>
+            Back to ELAD BAR website
+        </button>
+        </a>
+
+    </div>
+    <script>
+        (function () {
+            if (document.referrer && document.location.host && document.referrer.match(new RegExp("^https?://" + document.location.host))) {
+                document.getElementById("back-link").setAttribute("href", document.referrer);
+            }
+        })();
+    </script>
+</body>
+
+</html>
