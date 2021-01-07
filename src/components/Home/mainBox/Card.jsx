@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 function Card({infoItem}) {
-    console.log(infoItem)
+    // console.log(infoItem)
     return (
         <InnerBox>
             <h3>{infoItem.title}</h3>

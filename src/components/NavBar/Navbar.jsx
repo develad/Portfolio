@@ -44,24 +44,20 @@ const{isScrolling,ButtonClickedHandler} = useContext(ScrollingStore);
             </BigText>
             
             <ButtonContainer>
-            {navButtons.map((btn,index) =>{
-                return(
-                    <Button
-                    btnlength={navButtons.length}
-                    key={index}
-                    onClick={()=>{ButtonClickedHandler(btn.titleBtn)}}>
-                    {btn.icon}{btn.titleBtn}
-                    </Button>
-                )
-            })}
-            <ThemeButton
-            onClick={()=> {
-              setIsDark(!isDark)
-              console.log(isDark)
-            }}
-            >{isDark?<fa.FaSun/>:<ri.RiMoonClearFill/>}
-            </ThemeButton>
-
+                {navButtons.map((btn,index) =>{
+                    return(
+                        <Button
+                        btnlength={navButtons.length}
+                        key={index}
+                        onClick={()=>{ButtonClickedHandler(btn.titleBtn)}}>
+                        {btn.icon}{btn.titleBtn}
+                        </Button>
+                    )
+                })}
+                <ThemeButton
+                onClick={()=> {setIsDark(!isDark)}}
+                >{isDark?<fa.FaSun/>:<ri.RiMoonClearFill/>}
+                </ThemeButton>
             </ButtonContainer>
         </Box>
         </>

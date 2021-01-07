@@ -114,8 +114,9 @@ transition: 0.4s ease;
 @media only screen and (max-width: 980px) {
     margin-top:2rem;
     min-height:50vh;
-    width:100vw;
-    border:none;
+    width:70vw;
+    border:${({isDark})=>isDark?"3px solid white":"3px solid rgb(80,80,80)"};
+    border-radius:20px;
 }
 `;
 
@@ -129,7 +130,7 @@ filter:${({isDark})=>isDark?"hue-rotate(90deg)":"none"};
 transition:0.4s ease;
 @media only screen and (max-width: 980px) {
     margin-top:2rem;
-    width:75%;
+    width:70%;
     height:100%;
     border-bottom-right-radius:0px;
     border-top: none;

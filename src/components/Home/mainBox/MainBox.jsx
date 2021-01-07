@@ -27,7 +27,7 @@ function MainBox() {
                                 )
                             })}    
                 </CardContainer>
-                <Footer>"Favorite Text editor: VScode"&nbsp;&nbsp;
+                <Footer>Favorite Text editor: VScode
                     <img src="/images/vscode.png" alt="face" height="40" width="40"/>
                     <img src="/images/face.gif" alt="face" height="40" width="40"/>
                 </Footer>
@@ -120,6 +120,9 @@ justify-content:center;
 margin-top:80px;
 @media only screen and (max-width: 550px) {
 margin-top:20px;
-white-space:nowrap;
+/* font-size:0.9rem; */
+padding: 0 2rem;
+text-align:center;
+/* white-space:nowrap; */
 }
 `;

@@ -87,6 +87,6 @@ align-items:center;
 justify-content:flex-start;
 @media only screen and (max-width: 980px) {
     font-size:20px;
-    text-align:justify;
+    /* text-align:justify; */
 }
 `;

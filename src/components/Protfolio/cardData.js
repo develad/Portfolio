@@ -37,7 +37,7 @@ export const projectsData = [
         description:"My personal portfolio site Fully made with REACT JS by me",
         features:[
             "Fully REACT JS appliction",
-            "Styled ONLY with ' Styled Components 💅 '",
+            "Styled ONLY with Styled Components 💅",
             "Animation with framer-motion",
             "Reusable components",
             "Form handeling",

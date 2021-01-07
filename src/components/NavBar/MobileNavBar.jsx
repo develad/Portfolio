@@ -98,7 +98,6 @@ const{ButtonClickedHandler} = useContext(ScrollingStore);
             isDark={isDark}
             onClick={()=> {
                 setIsDark(!isDark)
-                console.log(isDark)
             }}>
 
             {isDark?

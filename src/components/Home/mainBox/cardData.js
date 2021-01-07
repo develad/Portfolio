@@ -1,9 +1,9 @@
 export const info=[
     {
-    mainTitle:"FrontEnd",    
+    mainTitle:"Frontend",    
     infoPairs:[
         {
-            title:"REACT JS",
+            title:"React",
             src:"/images/react.png"
         },
         {   
@@ -25,10 +25,10 @@ export const info=[
     ]
 },
     {
-        mainTitle:"BackEnd",
+        mainTitle:"Backend",
         infoPairs:[
         {
-            title:"nodeJS",
+            title:"Node.js",
             src:"/images/nodejs.png"
         },
         {   
@@ -36,7 +36,7 @@ export const info=[
             src:"/images/npm.png"
         },
         {
-            title:"mongoDB",
+            title:"MongoDB",
             src:"/images/mongodb.png"
         },
     ]
