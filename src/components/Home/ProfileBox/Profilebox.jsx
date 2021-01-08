@@ -11,7 +11,7 @@ function Profilebox() {
     return (
         <Profile isDark={isDark}>
                 <HeaderTitle>ELAD BAR</HeaderTitle> 
-                    <ProfileImg src="/images/img_01.jpg" alt="logo"/>
+                    <ProfileImg src="/images/img_01A.jpg" alt="logo"/>
                     <ProfileDiv>
                         <Hello>Hello! 🎉😃</Hello>
                         {textMain.map((text,index)=>{

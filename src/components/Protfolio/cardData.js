@@ -4,9 +4,9 @@ export const projectsData = [
         title:"Weather app",
         description:"A widget style appliction that display current weather",
         features:[
-            "A fully Vanilla JS based website",
+            "A fully Vanilla js based website",
             "Using Geolocation in the Browser",
-            "Fetch data from an API using Async/Await",
+            "Fetching data from an API using Async/Await",
             "Using custom weather icones",
         ],
         githubLink:"https://github.com/develad/weather-app",
@@ -20,8 +20,8 @@ export const projectsData = [
         title:"Beer app",
         description:"A Beer Trivia info appliction that interact with the user",
         features:[
-            "Fully REACT JS appliction using Hooks and functional components",
-            "Fetch data from an API using Async/Await",
+            "Fully React js appliction using Hooks and functional components",
+            "Fetching data from an API using Async/Await",
             "Filtering User input data and displying it to the DOM",
             "Advanced css for friendly UI",
         ],
@@ -36,7 +36,7 @@ export const projectsData = [
         title:"Personal portfolio site",
         description:"My personal portfolio site Fully made with REACT JS by me",
         features:[
-            "Fully REACT JS appliction",
+            "Fully React js appliction",
             "Styled ONLY with Styled Components 💅",
             "Animation with framer-motion",
             "Reusable components",

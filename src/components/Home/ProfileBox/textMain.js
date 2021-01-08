@@ -6,9 +6,9 @@
 //     "\"I have great communication and social skills\"",
 // ]
 export const textMain=[
-    "My name is Elad and I am looking for my first job as a Junior Developer",
+    "My name is Elad and I am looking for a job as a Junior Developer",
 
     "I am a self taught and an enthusiastic with great ambitions",
     
-    "I believe that communication and social skills contribute to the success of a developer",
+    "I believe that communication and social skills working together in a group can have big contribution to the success of the development process",
 ]
