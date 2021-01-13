@@ -32,7 +32,7 @@ export const info=[
             src:"/images/nodejs.png"
         },
         {   
-            title:"express",
+            title:"Express",
             src:"/images/express.png"
         },
         {
