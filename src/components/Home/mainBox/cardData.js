@@ -31,13 +31,13 @@ export const info=[
             title:"Node.js",
             src:"/images/nodejs.png"
         },
-        {
-            title:"MongoDB",
-            src:"/images/mongodb.png"
-        },
         {   
             title:"express",
             src:"/images/express.png"
+        },
+        {
+            title:"MongoDB",
+            src:"/images/mongodb.png"
         },
     ]
 },
