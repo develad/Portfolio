@@ -39,6 +39,10 @@ export const info=[
             title:"MongoDB",
             src:"/images/mongodb.png"
         },
+        {   
+            title:"npm",
+            src:"/images/npm.png"
+        },
     ]
 },
     {
