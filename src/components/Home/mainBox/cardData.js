@@ -19,6 +19,10 @@ export const info=[
             src:"/images/javascript.png"
         },
         {
+            title:"Sass",
+            src:"/images/sass.png"
+        },
+        {
             title:"Bootstrap",
             src:"/images/bootstrap.png"
         },
