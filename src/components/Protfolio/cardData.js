@@ -12,6 +12,7 @@ export const projectsData = [
     githubLink: 'https://github.com/develad/weather-app',
     websiteLink: 'https://eloquent-mestorf-d5237e.netlify.app/',
     img: ['/images/weatherCard.png'],
+    isMobile: true,
   },
   {
     id: 2,
@@ -26,6 +27,7 @@ export const projectsData = [
     githubLink: 'https://github.com/develad/beer-app',
     websiteLink: 'https://romantic-heisenberg-49fc20.netlify.app/#beerbtn',
     img: ['/images/beerCard.png'],
+    isMobile: true,
   },
   {
     id: 3,
@@ -42,6 +44,7 @@ export const projectsData = [
     githubLink: 'https://github.com/develad/Portfolio',
     websiteLink: 'https://elad-bar-portfolio.netlify.app/',
     img: ['/images/profileSite.png', '/images/profileSite.png'],
+    isMobile: true,
   },
   {
     id: 4,
@@ -56,5 +59,21 @@ export const projectsData = [
     githubLink: 'https://github.com/develad/super-mario-clock',
     websiteLink: 'https://super-mario-clock.netlify.app/',
     img: ['/images/superMario.png'],
+    isMobile: true,
+  },
+  {
+    id: 5,
+    title: 'hover board',
+    description:
+      'A Drawing HoverBoard in Pixel Art style developed for the Desktop web browser in Vanilla js',
+    features: [
+      'Managing user Interactions',
+      'using Advanced Css techniques to form a drawing Grid',
+      'using Font Awesome Custom Icons via cdn',
+    ],
+    githubLink: 'https://github.com/develad/hover-board-new',
+    websiteLink: 'https://hover-board-new.netlify.app/',
+    img: ['/images/hoverBoard.png'],
+    isMobile: false,
   },
 ];

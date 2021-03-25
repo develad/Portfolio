@@ -38,10 +38,14 @@ function Card({ project }) {
           {project.features.map((feature, index) => {
             return <li key={index}>{feature}</li>;
           })}
-          <li>
-            Mobile responsive&nbsp;
-            <fa.FaMobileAlt />
-          </li>
+          {project.isMobile ? (
+            <li>
+              Mobile responsive&nbsp;
+              <fa.FaMobileAlt />
+            </li>
+          ) : (
+            ''
+          )}
         </UlBox>
         <ButtonsContainer>
           <a href={project.githubLink} target='_blank' rel='noreferrer'>
