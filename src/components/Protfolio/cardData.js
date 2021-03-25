@@ -41,7 +41,7 @@ export const projectsData = [
     ],
     githubLink: 'https://github.com/develad/Portfolio',
     websiteLink: 'https://elad-bar-portfolio.netlify.app/',
-    img: ['/images/profileSite.png', '/images/profileSiteDark.png'],
+    img: ['/images/profileSite.png', '/images/profileSite.png'],
   },
   {
     id: 4,
