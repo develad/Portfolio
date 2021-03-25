@@ -1,53 +1,60 @@
 export const projectsData = [
-    {
-        id:1,
-        title:"Weather app",
-        description:"A widget style appliction that display current weather",
-        features:[
-            "A fully Vanilla js based website",
-            "Using Geolocation in the Browser",
-            "Fetching data from an API using Async/Await",
-            "Using custom weather icones",
-        ],
-        githubLink:"https://github.com/develad/weather-app",
-        websiteLink:"https://eloquent-mestorf-d5237e.netlify.app/",
-        img:[
-            "/images/weatherCard.png"
-        ]
-    },
-    {
-        id:2,
-        title:"Beer app",
-        description:"A Beer Trivia info appliction that interact with the user",
-        features:[
-            "Fully React js appliction using Hooks and functional components",
-            "Fetching data from an API using Async/Await",
-            "Filtering User input data and displying it to the DOM",
-            "Advanced css for friendly UI",
-        ],
-        githubLink:"https://github.com/develad/beer-app",
-        websiteLink:"https://romantic-heisenberg-49fc20.netlify.app/#beerbtn",
-        img:[
-            "/images/beerCard.png"
-        ]
-    },
-    {
-        id:3,
-        title:"Personal portfolio site",
-        description:"My personal portfolio site Fully made with REACT JS by me",
-        features:[
-            "Fully React js appliction",
-            "Styled ONLY with Styled Components 💅",
-            "Animation with framer-motion",
-            "Reusable components",
-            "Form handeling",
-            "Advanced css for a friendly UI",
-        ],
-        githubLink:"https://github.com/develad/Portfolio",
-        websiteLink:"https://elad-bar-portfolio.netlify.app/",
-        img:[
-            "/images/profileSite.png",
-            "/images/profileSiteDark.png"
-        ]
-    },
-]
+  {
+    id: 1,
+    title: 'Weather app',
+    description: 'A widget style appliction that display current weather',
+    features: [
+      'A fully Vanilla js based website',
+      'Using Geolocation in the Browser',
+      'Fetching data from an API using Async/Await',
+      'Using custom weather icones',
+    ],
+    githubLink: 'https://github.com/develad/weather-app',
+    websiteLink: 'https://eloquent-mestorf-d5237e.netlify.app/',
+    img: ['/images/weatherCard.png'],
+  },
+  {
+    id: 2,
+    title: 'Beer app',
+    description: 'A Beer Trivia info appliction that interact with the user',
+    features: [
+      'Fully React js appliction using Hooks and functional components',
+      'Fetching data from an API using Async/Await',
+      'Filtering User input data and displying it to the DOM',
+      'Advanced css for friendly UI',
+    ],
+    githubLink: 'https://github.com/develad/beer-app',
+    websiteLink: 'https://romantic-heisenberg-49fc20.netlify.app/#beerbtn',
+    img: ['/images/beerCard.png'],
+  },
+  {
+    id: 3,
+    title: 'Personal portfolio site',
+    description: 'My personal portfolio site Fully made with REACT JS by me',
+    features: [
+      'Fully React js appliction',
+      'Styled ONLY with Styled Components 💅',
+      'Animation with framer-motion',
+      'Reusable components',
+      'Form handeling',
+      'Advanced css for a friendly UI',
+    ],
+    githubLink: 'https://github.com/develad/Portfolio',
+    websiteLink: 'https://elad-bar-portfolio.netlify.app/',
+    img: ['/images/profileSite.png', '/images/profileSiteDark.png'],
+  },
+  {
+    id: 4,
+    title: 'Super Mario Clock 🕗',
+    description: 'A Vanilla JS Super Mario Clock Screen Saver',
+    features: [
+      'Simple Beginner project to practise web development fundamentals',
+      'Can be used as a Screen saver 👾',
+      'Displaying current time',
+      'small interaction with animation',
+    ],
+    githubLink: 'https://github.com/develad/super-mario-clock',
+    websiteLink: 'https://super-mario-clock.netlify.app/',
+    img: ['/images/superMario.png'],
+  },
+];
