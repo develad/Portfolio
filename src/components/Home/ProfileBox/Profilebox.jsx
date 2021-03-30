@@ -94,7 +94,23 @@ const HelloImg = styled.img`
   position: absolute;
   right: 8%;
   bottom: 20px;
+  opacity:0;
+  animation: fadeOut 10s ease;
+  pointer-events:none;
   @media only screen and (max-width: 980px) {
     display: none;
+  }
+
+  @keyframes fadeOut{
+    {
+  0% {
+    opacity: 1;
+  }
+  90%{
+      opacity:1;
+  }
+  100% {
+    opacity: 0;
+  }
   }
 `;
