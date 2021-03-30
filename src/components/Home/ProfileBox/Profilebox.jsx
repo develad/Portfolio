@@ -92,9 +92,8 @@ const MainProfileBox = styled.p`
 const HelloImg = styled.img`
   height: 100px;
   position: absolute;
-  right: 30%;
+  right: 8%;
   bottom: 20px;
-  transform: translateX(-30%);
   @media only screen and (max-width: 980px) {
     display: none;
   }
