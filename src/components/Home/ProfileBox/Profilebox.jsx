@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import styled from 'styled-components';
 import { textMain } from './textMain';
+import ContactMe from './ContectMe/ContactMe';
 import { DarkModeStore } from '../../store/Dark.Mode.Store';
 
 function Profilebox() {
@@ -17,6 +18,7 @@ function Profilebox() {
         })}
       </ProfileDiv>
       <HelloImg src='/images/hello.gif' alt='hello-person' />
+      <ContactMe />
     </Profile>
   );
 }
@@ -92,10 +94,10 @@ const MainProfileBox = styled.p`
 const HelloImg = styled.img`
   height: 100px;
   position: absolute;
-  right: 8%;
-  bottom: 20px;
+  right: 4%;
+  bottom: 32px;
   opacity:0;
-  animation: fadeOut 10s ease;
+  animation: fadeOut 5s ease;
   pointer-events:none;
   @media only screen and (max-width: 980px) {
     display: none;
