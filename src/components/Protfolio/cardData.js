@@ -1,16 +1,16 @@
 export const projectsData = [
   {
     id: 1,
-    title: 'Weather app',
+    title: 'Full-Stack Weather app',
     description: 'A widget style appliction that display current weather',
     features: [
-      'A fully Vanilla js based website',
       'Using Geolocation in the Browser',
-      'Fetching data from an API using Async/Await',
-      'Using custom weather icones',
+      'Fetching data from an API on the Backend and serving it to the front',
+      'Private backend server in express to avoid CORS',
+      'Using custom weather icons from a separate module',
     ],
-    githubLink: 'https://github.com/develad/weather-app',
-    websiteLink: 'https://eloquent-mestorf-d5237e.netlify.app/',
+    githubLink: 'https://github.com/develad/weather-fullstack',
+    websiteLink: 'https://weather-vanilla.netlify.app/',
     img: ['/images/weatherCard.png'],
     isMobile: true,
   },
