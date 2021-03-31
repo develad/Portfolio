@@ -1,22 +1,20 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react';
 
 const DarkModeStore = React.createContext();
-const {Provider} = DarkModeStore;
+const { Provider } = DarkModeStore;
 
-const DarkModeProvider = ({children}) =>{
+const DarkModeProvider = ({ children }) => {
+  const [isDark, setIsDark] = useState(true);
 
-    const [isDark,setIsDark]=useState(false);
+  const state = {
+    isDark,
+  };
 
-    const state = {
-        isDark
-    };
+  const actions = {
+    setIsDark,
+  };
 
-    const actions = {
-        setIsDark
-    }
+  return <Provider value={{ ...state, ...actions }}>{children}</Provider>;
+};
 
-    return <Provider value={{...state,...actions}}>{children}</Provider>
-}
-
-
-export {DarkModeProvider,DarkModeStore};
+export { DarkModeProvider, DarkModeStore };
