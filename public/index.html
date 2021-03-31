@@ -3,13 +3,21 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Elad Bar portfolio website of Web Development projects with direct contact information to get in touch"
+    />
+
+    <meta
+      name="keywords"
+      content="elad bar,ELAD BAR,אלעד בר,portfolio,developer,web development, programming,javascript, html,css,react,node js, web design"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
@@ -29,18 +37,28 @@
     <title>Elad Bar Portfolio</title>
   </head>
   <body>
+    <form
+      name="contact"
+      netlify
+      netlify-honeypot="bot-field"
+      action="/succues"
+      hidden
+    >
+      <input type="hidden" name="subject" value="דואר חדש מטופס יצירת קשר" />
 
-    <form name="contact" netlify netlify-honeypot="bot-field" action="/succues" hidden>
-            <input type="hidden" name="subject" value="דואר חדש מטופס יצירת קשר"/>
-            
-            <input type="text" id="fullname" name="full name" required/>
-            
-            <input type="email" id="email" name="email" required/>
-            
-            <input type="text" id="subjectForm" name="subjectForm" required/>
-            
-            <textarea rows="6" id="description" name="description" required></textarea>
-            <button type="submit"></button>
+      <input type="text" id="fullname" name="full name" required />
+
+      <input type="email" id="email" name="email" required />
+
+      <input type="text" id="subjectForm" name="subjectForm" required />
+
+      <textarea
+        rows="6"
+        id="description"
+        name="description"
+        required
+      ></textarea>
+      <button type="submit"></button>
     </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
