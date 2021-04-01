@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import styled from 'styled-components';
 import * as fa from 'react-icons/fa';
 
@@ -6,6 +6,9 @@ import { DarkModeStore } from '../../../store/Dark.Mode.Store';
 
 function ContactMe() {
   const { isDark } = useContext(DarkModeStore);
+  useEffect(() => {
+    fetch('https://dagbareshet.herokuapp.com');
+  }, []);
   return (
     <Container>
       <ContactLink

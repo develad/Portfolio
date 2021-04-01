@@ -1,11 +1,8 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
 function Card({ infoItem }) {
   // console.log(infoItem)
-  useEffect(() => {
-    fetch('https://dagbareshet.herokuapp.com');
-  }, []);
   return (
     <InnerBox>
       <h3>{infoItem.title}</h3>
