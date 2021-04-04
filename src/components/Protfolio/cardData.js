@@ -25,7 +25,7 @@ export const projectsData = [
       'Advanced css for friendly UI',
     ],
     githubLink: 'https://github.com/develad/beer-app',
-    websiteLink: 'https://romantic-heisenberg-49fc20.netlify.app/#beerbtn',
+    websiteLink: 'https://develad.github.io/beer-app/',
     img: ['/images/beerCard.png'],
     isMobile: true,
   },
