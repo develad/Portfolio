@@ -1,6 +1,6 @@
 ![preview-image](https://raw.githubusercontent.com/develad/Portfolio/main/public/images/preview-github.png)
 
-# >>> [Elad Bar Protfolio Site. Click Here!](https://elad-bar-portfolio.netlify.app/)
+# [Elad Bar Portfolio Site. Click Here!](https://elad-bar-portfolio.netlify.app/)
 
 # Getting Started with Create React App
 
