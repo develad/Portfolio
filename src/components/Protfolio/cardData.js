@@ -82,7 +82,7 @@ export const projectsData = [
     description:
       'A simple To-do app in React js with 3 levels of priority and internal sorting',
     features: [
-      'Sortig todo`s by priorities level',
+      'Sorting todo`s by priorities level',
       'using the Local Storage to Read/Write todo`s information',
       'using functional components and React Hooks to implement the app logic',
     ],
