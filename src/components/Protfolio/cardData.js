@@ -76,19 +76,19 @@ export const projectsData = [
     img: ['/images/hoverBoard.png'],
     isMobile: false,
   },
-  // {
-  //   id: 6,
-  //   title: 'todo app',
-  //   description:
-  //     'A simple To-do app in React js with 3 levels of priority and internal sorting',
-  //   features: [
-  //     'Sortig todo`s by priorities level',
-  //     'using the Local Storage to Read/Write todo`s information',
-  //     'using functional components and React Hooks to implement the app logic',
-  //   ],
-  //   githubLink: 'https://github.com/develad/todo-app-v1',
-  //   websiteLink: 'https://develad.github.io/todo-app-v1/',
-  //   img: ['/images/todoApp.png'],
-  //   isMobile: true,
-  // },
+  {
+    id: 6,
+    title: 'todo app',
+    description:
+      'A simple To-do app in React js with 3 levels of priority and internal sorting',
+    features: [
+      'Sortig todo`s by priorities level',
+      'using the Local Storage to Read/Write todo`s information',
+      'using functional components and React Hooks to implement the app logic',
+    ],
+    githubLink: 'https://github.com/develad/todo-app-v1',
+    websiteLink: 'https://develad.github.io/todo-app-v1/',
+    img: ['/images/todoApp.png'],
+    isMobile: true,
+  },
 ];
