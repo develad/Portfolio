@@ -1,5 +1,5 @@
 export const textMain = [
-  'My name is Elad and I am looking for a job as a Junior Developer',
+  'My name is Elad and I am looking for a job as a Web / Fullstack / Frontend Developer',
 
   'I am a self taught and an enthusiastic with great ambitions',
 
