@@ -30,6 +30,7 @@ function ContactMe() {
         target='_blank'
         rel='noreferrer'
         isDark={isDark}
+        style={{ fontSize: '2.3rem', paddingTop: '2px' }}
       >
         <ai.AiFillTwitterCircle />
       </ContactLink>
