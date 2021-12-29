@@ -94,8 +94,8 @@ const MainProfileBox = styled.p`
 const HelloImg = styled.img`
   height: 100px;
   position: absolute;
-  right: 4%;
-  bottom: 32px;
+  right: 0;
+  bottom: 20px;
   opacity: 0;
   animation: fadeOut 5s ease;
   pointer-events: none;
