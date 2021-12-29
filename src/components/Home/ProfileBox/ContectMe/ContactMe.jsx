@@ -1,14 +1,12 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext } from 'react';
 import styled from 'styled-components';
 import * as fa from 'react-icons/fa';
+import * as ai from 'react-icons/ai';
 
 import { DarkModeStore } from '../../../store/Dark.Mode.Store';
 
 function ContactMe() {
   const { isDark } = useContext(DarkModeStore);
-  useEffect(() => {
-    fetch('https://dagbareshet.herokuapp.com');
-  }, []);
   return (
     <Container>
       <ContactLink
@@ -28,6 +26,14 @@ function ContactMe() {
         <fa.FaGithub />
       </ContactLink>
       <ContactLink
+        href='https://twitter.com/develadbar'
+        target='_blank'
+        rel='noreferrer'
+        isDark={isDark}
+      >
+        <ai.AiFillTwitterCircle />
+      </ContactLink>
+      <ContactLink
         href='https://www.linkedin.com/in/elad-bar-b25ab532/'
         target='_blank'
         rel='noreferrer'
@@ -42,7 +48,7 @@ function ContactMe() {
 export default ContactMe;
 
 const Container = styled.div`
-  width: 120px;
+  width: 170px;
   font-size: 2rem;
   display: flex;
   align-items: center;
