@@ -54,7 +54,7 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-top: 3rem;
+  margin-top: 2rem;
   @media only screen and (max-width: 980px) {
     width: 180px;
   }
