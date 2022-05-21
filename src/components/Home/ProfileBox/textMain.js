@@ -5,5 +5,5 @@ export const textMain = [
 
   'I believe that communication and social skills working together in a group can have big contribution to the success of the development process',
   
-  'i\'m currently looking for a new challenge. So if you need a developer like me just contact me'
+  'Contact me'
 ];
